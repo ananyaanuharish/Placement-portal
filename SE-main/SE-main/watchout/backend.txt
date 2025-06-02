@@ -1,0 +1,23 @@
+fuser -k 3000/tcp
+
+
+nvm install node    //update node
+npm install -g npm   //update npm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash     //update nvm
+
+
+shre_sg@Rog:~/Projects/SE/backend$ nvm use 22
+Now using node v22.3.0 (npm v10.8.1)
+
+shre_sg@Rog:~/Projects/SE/backend$ npm init --yes
+shre_sg@Rog:~/Projects/SE/backend$ npm i express
+shre_sg@Rog:~/Projects/SE/backend$ sudo npm i -g nodemon
+shre_sg@Rog:~/Projects/SE/backend$ npm i mysql
+shre_sg@Rog:~/Projects/SE/backend$ npm i mysql2
+
+
+use SOFTWARE_ENGG;
+SET FOREIGN_KEY_CHECKS = 0;
+TRUNCATE TABLE `Eligibility`;
+TRUNCATE TABLE `Students`;
+SET FOREIGN_KEY_CHECKS = 1;
